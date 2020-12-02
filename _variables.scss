@@ -1,0 +1,37 @@
+$mainTextColor: #22262A;
+
+%blackButton {
+    background: $mainTextColor;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 4px 25px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+%whiteButton {
+    @extend %blackButton;
+    background: #FFFFFF;
+    color: $mainTextColor;
+}
+
+%bunnerTextTop {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+%bunnerHeader {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+%bunnerTextBottom {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
