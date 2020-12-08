@@ -1,0 +1,263 @@
+.sectionHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;  
+
+    .sectionHeader {
+        font-weight: 600;
+        font-size: 18px;
+        color: $mainTextColor;
+    }
+
+    .sectionHeaderBtn {
+        font-weight: bold;
+        font-size: 15px;
+        color: $mainTextColor;
+        cursor: pointer;
+
+        i {
+            color: $additionalTextColor;
+            margin-left: 6px;
+        }
+    }
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 410px 460px 460px 425px 530px 696px;
+
+    &__nav {
+        font-family: Open Sans;
+        display: flex;
+        flex-direction: column;
+        width: 269px;
+
+        &Header {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 16px;
+            color: $mainTextColor;
+        }
+
+        &Link {
+            font-weight: 400;
+            font-size: 14px;
+            color: $additionalTextColor;
+
+            &:not(:last-child) {
+                margin-bottom: 12px;
+            }
+        }
+
+        &MoreBtn {
+            width: 179px;
+            margin-top: 24px;
+            padding: 12.5px 16px;
+            font-weight: bold;
+            font-size: 15px;
+            background: $btnBackground;
+            border-radius: 12px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+
+            > i {
+                margin-left: 6px;
+            }
+        }
+
+    }
+
+    &__category {
+        padding: 64px 0;
+        display: flex;
+        justify-content: space-between;
+
+        &Banner {
+            width: 420px;
+            height: 280px;
+            padding-top: 48px;
+            padding-left: 33px;
+            border-radius: 12px;
+            background: url(../images/banner.svg), #F4F8EC;
+            
+            &SubHeader {
+                font-weight: 600;
+                font-size: 12px;
+                margin-bottom: 8px;
+                color: $additionalTextColor;
+            }
+
+            &Header {
+                font-weight: 600;
+                font-size: 22px;
+                color: $mainTextColor;
+                margin-bottom: 94px;
+            }
+
+            .main__bannerBtn {
+                padding: 12px 16px;
+                border: 2px solid #92C064;
+                box-sizing: border-box;
+                border-radius: 12px;
+                outline: none;
+                cursor: pointer;
+                background: transparent;
+                font-weight: bold;
+                font-size: 15px;
+                color: $mainTextColor;
+                text-align: center;
+
+                > i {
+                    color: $additionalTextColor;
+                    margin-left: 8px;                    
+                }
+            }
+        }
+
+    }
+
+    &__bestSection {
+        padding: 64px 0 73px;
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    &__customerFeedback {
+       border: 1px solid #F9F9F9;
+       padding: 65px 0;
+       box-shadow: inset -14px 12px 224px -2px rgba(255,255,255,1);
+
+       &Wrapper {
+           display: flex;                      
+           justify-content: center;         
+       }
+
+       .customerFeedbackItem {
+           width: 369px;
+           height: 198px;
+            background: #FFFFFF;
+            border: 1px solid #F1F1F1;
+            box-sizing: border-box;
+            border-radius: 12px;
+            padding: 32px 24px; 
+            position: relative;           
+            margin-right: 32px;
+
+            &__text {
+                font-weight: 500;
+                font-size: 15px;
+                color: $mainTextColor;
+                text-align: center;
+            }
+
+            &__customerName {
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 18px;
+                text-align: center;
+                color: #A9A9A9;
+                margin-top: 24px;
+            }
+
+            &__customerPhoto {
+                position: absolute;
+                left: 150px;
+                bottom: -30px;
+            }
+       }
+    }
+
+    &__productsSection {
+        padding-top: 70px;
+        padding-bottom: 73px;
+
+        .productWrapper {            
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__blogSection {
+        padding-top: 70px;
+        padding-bottom: 65px;
+
+        .blogWrapper {
+            display: grid;
+            grid-template-columns: 469px 269px 369px;
+            column-gap: 31.5px;
+
+            .blogItems__first {                
+                background: url(../images/blog_image_1.png) no-repeat;
+                width: inherit;
+                height: 400px;
+                background-size: cover;
+                padding: 24px;
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: start;
+
+                .blogHeader {                    
+                    width: 340px;
+                }
+
+                .blogInfo {
+                    color: #FFFFFF;
+                    align-items: center;
+
+                    .blogAuthorPhoto {
+                        margin-right: 8px;
+                    }
+                }
+            }
+
+            .blogItems__second {
+
+                img {
+                    margin-bottom: 10px;
+                    height: 180px;
+                    object-fit: cover;
+                }
+            }
+
+            .blogItems__third {
+                
+                img {
+                    width: 96px;
+                    height: 96px;
+                    object-fit: cover;
+                }
+
+                .blogItemWrapper {
+                    display: flex;
+                    margin-bottom: 32px;
+                }
+
+            }
+
+            .blogHeader {
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            .blogText {
+                font-weight: 500;
+                font-size: 15px;
+                color: $mainTextColor;
+            }
+
+            .blogInfo {
+                display: flex;
+                font-weight: 400;
+                font-size: 12px;
+                margin-top: 16px;
+
+                .blogAuthor {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }   
+}

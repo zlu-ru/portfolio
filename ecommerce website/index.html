@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Main</title>
+</head>
+
+<body>
+    <!-- Created based on -->
+    <!-- https://www.figma.com/file/sxX59PLbbdzVZ7lr1znWrX/eCommerce-website?node-id=2%3A1713 -->
+
+    <header class="header">
+        <div class="headerContacts container">
+            <div class="headerContacts__contacts">
+                <a class="headerContacts__contact" href="#">Chat with us</a>
+                <a class="headerContacts__contact" href="phoneto:+420 336 775 664">+420 336 775 664</a>
+                <a class="headerContacts__contact" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+            </div>
+            <div class="headerContacts__links">
+                <a class="headerContacts__link" href="#">Blog</a>
+                <a class="headerContacts__link" href="#">About us</a>
+                <a class="headerContacts__link" href="#">Careers</a>
+            </div>
+        </div>
+
+        <div class="headerPanel container">
+            <div class="headerPanel__brandLogo">
+                <img src="images/Freshnesecom.svg" alt="brandLogoImg">
+            </div>
+            <form class="headerPanel__searchPanel">
+                <div class="headerPanel__selectBtn">All categories <i class="fas fa-angle-down"></i></div>
+                <input class="headerPanel__input" type="text" placeholder="Search products, categories ...">
+                <button class="headerPanel__searchBtn"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="headerPanel__userPanel">
+                <div class="headerPanel__person">
+                    <a href="#"><img src="images/ic-actions-user.svg" alt="userIcon"></a>
+                </div>
+                <div class="headerPanel__basket">
+                    <a href="#"><img src="images/ic-ecommerce-basket.svg" alt="basketIcon"></a>
+                </div>
+                <div class="headerPanel__goodsCount">4</div>
+
+            </div>
+        </div>
+
+        <div class="headerNavWrapper">
+            <nav class="headerNav container">
+                <a class="headerNav__item" href="#">Bakery
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Fruit and vegetables
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Meat and fish
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Drinks
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Kitchen
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Special nutrition
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Baby
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <a class="headerNav__item" href="#">Pharmacy
+                    <i class="fas fa-angle-down"></i>
+                </a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="main__category container">
+            <nav class="main__nav">
+                <div class="main__navHeader">Category menu</div>
+                <a href="#" class="main__navLink">Bakery</a>
+                <a href="#" class="main__navLink">Fruit and vegetables</a>
+                <a href="#" class="main__navLink">Meat and fish</a>
+                <a href="#" class="main__navLink">Drinks</a>
+                <a href="#" class="main__navLink">Kitchen</a>
+                <button class="main__navMoreBtn">
+                    More categories
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </nav>
+            <div class="main__categoryBanner">
+                <div class="main__categoryBannerSubHeader">Banner subfocus</div>
+                <div class="main__categoryBannerHeader">Space for heading</div>
+                <button class="main__bannerBtn">
+                    Read recepies
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </div>
+            <div class="main__categoryBanner">
+                <div class="main__categoryBannerSubHeader">Banner subfocus</div>
+                <div class="main__categoryBannerHeader">Space for heading</div>
+                <button class="main__bannerBtn">
+                    Read recepies
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="main__bestSection container">
+            <nav class="main__nav">
+                <div class="main__navHeader">Best selling products</div>
+                <a href="#" class="main__navLink">Kitchen</a>
+                <a href="#" class="main__navLink">Meat and fish</a>
+                <a href="#" class="main__navLink">Special nutrition</a>
+                <a href="#" class="main__navLink">Pharmacy</a>
+                <a href="#" class="main__navLink">Baby</a>
+                <button class="main__navMoreBtn">
+                    More categories
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </nav>
+            <div class="product">
+                <div class="product__image"></div>
+                <div class="product__title">Product Title</div>
+                <div class="product__description">Space for a small product description </div>
+                <div class="product__buyWrapper">
+                    <div class="product__priceWrapper">
+                        <div class="product__price">1.48</div>
+                        <div class="product__currence">USD</div>
+                    </div>
+                    <button class="product__buyBtn">Buy now</button>
+                </div>
+            </div>
+            <div class="product productSale">
+                <div class="product__image"></div>
+                <div class="product__title">Product Title</div>
+                <div class="product__description">Space for a small product description </div>
+                <div class="product__buyWrapper">
+                    <div class="product__priceWrapper">
+                        <div class="product__price">0.28</div>
+                        <div class="product__currence">USD</div>
+                    </div>
+                    <button class="product__buyBtn">Buy now</button>
+                </div>
+            </div>
+            <div class="product productSale">
+                <div class="product__image"></div>
+                <div class="product__title">Product Title</div>
+                <div class="product__description">Space for a small product description </div>
+                <div class="product__buyWrapper">
+                    <div class="product__priceWrapper">
+                        <div class="product__price">1.12</div>
+                        <div class="product__currence">USD</div>
+                    </div>
+                    <button class="product__buyBtn">Buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__bestSection container">
+            <nav class="main__nav">
+                <div class="main__navHeader">Best from Farmers</div>
+                <a href="#" class="main__navLink">Carrots</a>
+                <a href="#" class="main__navLink">Tomatoes</a>
+                <a href="#" class="main__navLink">Potatoes</a>
+                <a href="#" class="main__navLink">Chicken</a>
+                <a href="#" class="main__navLink">Pork</a>
+                <button class="main__navMoreBtn">
+                    More categories
+                    <i class="fas fa-angle-right"></i>
+                </button>
+            </nav>
+            <div class="product">
+                <div class="product__image"></div>
+                <div class="product__title">Product Title</div>
+                <div class="product__description">Space for a small product description </div>
+                <div class="product__buyWrapper">
+                    <div class="product__priceWrapper">
+                        <div class="product__price">1.48</div>
+                        <div class="product__currence">USD</div>
+                    </div>
+                    <button class="product__buyBtn">Buy now</button>
+                </div>
+            </div>
+            <div class="product productSale">
+                <div class="product__image"></div>
+                <div class="product__title">Product Title</div>
+                <div class="product__description">Space for a small product description </div>
+                <div class="product__buyWrapper">
+                    <div class="product__priceWrapper">
+                        <div class="product__price">1.48</div>
+                        <div class="product__currence">USD</div>
+                    </div>
+                    <button class="product__buyBtn">Buy now</button>
+                </div>
+            </div>
+            <div class="product productSale">
+                <div class="product__image"></div>
+                <div class="product__title">Product Title</div>
+                <div class="product__description">Space for a small product description </div>
+                <div class="product__buyWrapper">
+                    <div class="product__priceWrapper">
+                        <div class="product__price">1.48</div>
+                        <div class="product__currence">USD</div>
+                    </div>
+                    <button class="product__buyBtn">Buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- !!! ПЕРЕПИСАТЬ НА БУТСРАП СЛАЙДЕР !!! -->
+        <div class="main__customerFeedback">
+            <div class="sectionHeaderWrapper container">
+                <div class="sectionHeader">Our customers says</div>
+                <div class="sectionHeaderBtn">
+                    Button
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="main__customerFeedbackWrapper">
+                <div class="customerFeedbackItem">
+                    <div class="customerFeedbackItem__text">
+                        “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will
+                        get all what you need by writiing a text here “
+                    </div>
+                    <div class="customerFeedbackItem__customerName">
+                        Name and Surname
+                    </div>
+                    <div class="customerFeedbackItem__customerPhoto">
+                        <img src="images/customerPhoto_1.png" alt="customer_photo">
+                    </div>
+                </div>
+                <div class="customerFeedbackItem">
+                    <div class="customerFeedbackItem__text">
+                        “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will
+                        get all what you need by writiing a text here “
+                    </div>
+                    <div class="customerFeedbackItem__customerName">
+                        Name and Surname
+                    </div>
+                    <div class="customerFeedbackItem__customerPhoto">
+                        <img src="images/customerPhoto_2.png" alt="customer_photo">
+                    </div>
+                </div>
+                <div class="customerFeedbackItem">
+                    <div class="customerFeedbackItem__text">
+                        “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will
+                        get all what you need by writiing a text here “
+                    </div>
+                    <div class="customerFeedbackItem__customerName">
+                        Name and Surname
+                    </div>
+                    <div class="customerFeedbackItem__customerPhoto">
+                        <img src="images/customerPhoto_3.png" alt="customer_photo">
+                    </div>
+                </div>
+                <div class="customerFeedbackItem">
+                    <div class="customerFeedbackItem__text">
+                        “ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will
+                        get all what you need by writiing a text here “
+                    </div>
+                    <div class="customerFeedbackItem__customerName">
+                        Name and Surname
+                    </div>
+                    <div class="customerFeedbackItem__customerPhoto">
+                        <img src="images/customerPhoto_4.png" alt="customer_photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__productsSection container">
+            <div class="sectionHeaderWrapper">
+                <div class="sectionHeader">Section Headline</div>
+                <div class="sectionHeaderBtn">
+                    Button
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="productWrapper">
+                <div class="product">
+                    <div class="product__image"></div>
+                    <div class="product__title">Product Title</div>
+                    <div class="product__description">Space for a small product description </div>
+                    <div class="product__buyWrapper">
+                        <div class="product__priceWrapper">
+                            <div class="product__price">1.48</div>
+                            <div class="product__currence">USD</div>
+                        </div>
+                        <button class="product__buyBtn">Buy now</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__image"></div>
+                    <div class="product__title">Product Title</div>
+                    <div class="product__description">Space for a small product description </div>
+                    <div class="product__buyWrapper">
+                        <div class="product__priceWrapper">
+                            <div class="product__price">1.48</div>
+                            <div class="product__currence">USD</div>
+                        </div>
+                        <button class="product__buyBtn">Buy now</button>
+                    </div>
+                </div>
+                <div class="product productSale">
+                    <div class="product__image"></div>
+                    <div class="product__title">Product Title</div>
+                    <div class="product__description">Space for a small product description </div>
+                    <div class="product__buyWrapper">
+                        <div class="product__priceWrapper">
+                            <div class="product__price">1.48</div>
+                            <div class="product__currence">USD</div>
+                        </div>
+                        <button class="product__buyBtn">Buy now</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__image"></div>
+                    <div class="product__title">Product Title</div>
+                    <div class="product__description">Space for a small product description </div>
+                    <div class="product__buyWrapper">
+                        <div class="product__priceWrapper">
+                            <div class="product__price">1.48</div>
+                            <div class="product__currence">USD</div>
+                        </div>
+                        <button class="product__buyBtn">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__blogSection container">
+            <div class="sectionHeaderWrapper">
+                <div class="sectionHeader">Read our Blog posts</div>
+                <div class="sectionHeaderBtn">
+                    Go to Blog
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="blogWrapper">
+                <div class="blogItems__first">
+                    <span class="tag">Dinner tips</span>
+                    <div class="blogInfoWrapper">
+                        <div class="blogHeader">Our chef tips for a great and tasty dinner ready in 20 minutes</div>
+                        <div class="blogInfo">
+                            <img class="blogAuthorPhoto" src="images/customerPhoto_2.png" alt="blogAuthor">
+                            <div class="blogAuthor">Author</div>
+                            <div class="blogDate">15. 6. 2020</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blogItems__second">
+                    <img src="images/blog_image_2.png" alt="blogItemImage">
+                    <span class="tag">Vegetable</span>
+                    <div class="blogHeader">Which vegetable your family will love and want’s eat each day</div>
+                    <div class="blogInfo">
+                        <div class="blogAuthor">Author</div>
+                        <div class="blogDate">15. 6. 2020</div>
+                    </div>
+                </div>
+
+                <div class="blogItems__third">
+                    <div class="blogItemWrapper">
+                        <div class="blogInfoWrapper">
+                            <div class="blogText">Salat is kinda good start to your morning routines</div>
+                            <div class="blogInfo">
+                                <div class="blogAuthor">Author</div>
+                                <div class="blogDate">15. 6. 2020</div>
+                            </div>
+                        </div>
+                        <img src="images/blog_image_3.png" alt="blogItemImage">
+                    </div>
+
+
+
+                    <div class="blogItemWrapper">
+                        <div class="blogInfoWrapper">
+                            <div class="blogText">Our chef tips for a great and healthy breakfast</div>
+                            <div class="blogInfo">
+                                <div class="blogAuthor">Author</div>
+                                <div class="blogDate">15. 6. 2020</div>
+                            </div>
+                        </div>
+                        <img src="images/blog_image_4.png" alt="blogItemImage">
+                    </div>
+
+                    <div class="blogItemWrapper">
+                        <div class="blogInfoWrapper">
+                            <div class="blogText">Prepare a simple and delicious breads</div>
+                            <div class="blogInfo">
+                                <div class="blogAuthor">Author</div>
+                                <div class="blogDate">15. 6. 2020</div>
+                            </div>
+                        </div>
+                        <img src="images/blog_image_5.png" alt="blogItemImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer container">
+        <nav class="footer__nav">
+            <div class="footer__navItems">
+                <div class="footer__navHeader">Get in touch</div>
+                <a class="footer__navItem" href="#">About Us</a>
+                <a class="footer__navItem" href="#">Careers</a>
+                <a class="footer__navItem" href="#">Press Releases</a>
+                <a class="footer__navItem" href="#">Blog</a>
+            </div>
+            <div class="footer__navItems">
+                <div class="footer__navHeader" href="#">Connections</div>
+                <a class="footer__navItem" href="#">Facebook</a>
+                <a class="footer__navItem" href="#">Twitter</a>
+                <a class="footer__navItem" href="#">Instagram</a>
+                <a class="footer__navItem" href="#">Youtube</a>
+                <a class="footer__navItem" href="#">LinkedIn</a>
+            </div>
+            <div class="footer__navItems">
+                <div class="footer__navHeader" href="#">Earnings</div>
+                <a class="footer__navItem" href="#">Become an Affiliate</a>
+                <a class="footer__navItem" href="#">Advertise your product</a>
+                <a class="footer__navItem" href="#">Sell on Market</a>
+            </div>
+            <div class="footer__navItems">
+                <div class="footer__navHeader" href="#">Account</div>
+                <a class="footer__navItem" href="#">Your account</a>
+                <a class="footer__navItem" href="#">Returns Centre</a>
+                <a class="footer__navItem" href="#">100 % purchase protection</a>
+                <a class="footer__navItem" href="#">Chat with us</a>
+                <a class="footer__navItem" href="#">Help</a>
+            </div>
+        </nav>
+
+        <section class="tags ">
+            <div class="sectionHeaderWrapper">
+                <div class="sectionHeader">Product tags</div>
+            </div>
+            <span class="tag">Beans</span>
+            <span class="tag">Carrots</span>
+            <span class="tag">Apples</span>
+            <span class="tag">Garlic</span>
+            <span class="tag">Mushrooms</span>
+            <span class="tag">Tomatoes</span>
+            <span class="tag">Chilli peppers</span>
+            <span class="tag">Broccoli</span>
+            <span class="tag">Watermelons</span>
+            <span class="tag">Oranges</span>
+            <span class="tag">Bananas</span>
+            <span class="tag">Grapes</span>
+            <span class="tag">Cherries</span>
+            <span class="tag">Meat</span>
+            <span class="tag">Seo tag </span>
+            <span class="tag">Fish</span>
+            <span class="tag">Seo tag</span>
+            <span class="tag">Fresh food</span>
+            <span class="tag">Lemons</span>
+        </section>
+
+        <div class="copyright">Copyright © 2020 petrbilek.com</div>
+
+    </footer>
+
+</body>
+
+</html>

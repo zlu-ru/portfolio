@@ -1,0 +1,109 @@
+.label {
+    margin-right: 5px;
+    color: $additionalTextColor;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 8px;
+    background: #F4F8EC;
+    border-radius: 12px;
+}
+
+.product {
+    width: 269px;
+    height: 323px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 16px;
+    position: relative;
+
+    &__image {
+        display: inline-block;
+        width: 235px;
+        height: 165px;
+        background: $backgroundColor;
+        border-radius: 12px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 4px;
+        color: $mainTextColor;
+        margin-top: 16px;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 12px;     
+        color: #575757;   
+    }
+
+    &__buyWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 16px;        
+    }
+
+    &__priceWrapper {
+        display: flex;
+        align-items: flex-start;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    &__price {
+        margin-right: 5px;
+    }
+
+    &__buyBtn {
+        font-weight: bold;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 6px 12px;
+        border: 2px solid #46760A;
+        border-radius: 12px;
+        outline: none;
+        background: $additionalTextColor;
+        cursor: pointer;
+    }
+}
+
+.productSale::before {
+    content: '-36%';
+    margin: 0 8px;
+    background: #F4F8EC;
+    color: $additionalTextColor;
+    position: absolute;
+    font-size: 12px;
+    left: 28px;
+    top: 36px;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.productSale::after {
+    content: '48.56';
+    color: #A9A9A9;
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 12px;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.tag {
+    display: inline-block;
+    background: #F4F8EC;
+    border-radius: 12px;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: $additionalTextColor;
+    margin-right: 16px;    
+}

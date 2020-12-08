@@ -1,0 +1,42 @@
+
+.footer {
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+
+        &Header {
+            font-weight: 600;
+            font-size: 18px;
+            color: $mainTextColor;
+
+        }
+
+        &Item {
+            display: block;
+            margin-top: 16px;
+            font-weight: 400;
+            font-size: 14px;
+            text-decoration: none;
+            color: $additionalTextColor;
+        }
+    }
+
+    .tags {
+        margin-top: 48px;
+
+        .tag {
+            background: $btnBackground;
+            color: $mainTextColor;
+            margin-bottom: 16px;
+        }
+    }
+
+    .copyright {
+        margin-top: 48px;
+        margin-bottom: 64px;
+        font-weight: normal;
+        font-size: 14px;
+        color: $mainTextColor;
+    }
+}
